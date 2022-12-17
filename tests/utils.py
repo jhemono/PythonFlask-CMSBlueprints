@@ -2,7 +2,7 @@ import re
 from bs4 import BeautifulSoup
 from jinja2 import Environment, PackageLoader, exceptions, meta, nodes
 
-env = Environment(loader=PackageLoader('cms', '/admin/templates/admin'))
+env = Environment(loader=PackageLoader('cms', 'admin/templates/admin'))
 
 def template_source(name):
     try:
